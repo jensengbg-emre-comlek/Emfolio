@@ -1,0 +1,496 @@
+.grid-cont {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(32, 120px);
+    background: red;
+}
+.Cont1 {
+    background: #C7DDEA;
+    grid-column: auto / span 3;
+    grid-row: auto / span 6;
+}
+.Cont1box {
+    height: 100%;
+    width: 100%;
+}
+.Cont1box h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 5rem;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: left;
+}
+.Cont1box h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.7rem;
+    text-align: left;
+    margin-left: 18%;
+    margin-top: -5%;
+}
+.Cont1box h3 em {
+    color: white;
+}
+.Cont1box button {
+    dispay: flex;
+    background: white;
+    border-radius: 200px;
+    padding: 15px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+}
+.Cont1box button a {
+    color: black;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+}
+.Cont1box img {
+    position: relative;
+    float: right;
+    bottom: 83px;
+    height: 45%;
+    width: 45%;
+}
+.Cont2 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 3;
+    background: #F17949;
+}
+.TC2 > h1{
+    display: inline-block;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 100px;
+    right: 250px;
+}
+.TC2 > p {
+    position: relative;
+
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    color: black;
+    right: 280px;
+    top: 100px;
+    
+}
+.Cont3 {
+    grid-column: auto / span 3;
+    grid-row: auto / span 3;
+    background: #FAB131;
+}
+.TC3 {
+    position: absolute;
+    right: 17rem;
+    top: 475px;
+}
+.TC3 > h1 {
+    color: white;
+    font-size: 3rem;
+    display: inline-block;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding: 10px;
+
+}
+.TC3 > p {
+    font-size: 1rem;
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.Cont4 {
+    grid-column: 1 / span 6;
+    grid-row: auto;
+    background: white;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30%;
+    line-height: 100%;
+}
+nav a {
+    text-decoration: none;
+    font-family:'Fira Sans', sans-serif;
+    color: #555;
+    
+}
+.kfofk a {
+    color: black;
+    font-weight: bold;
+}
+.Cont5 {
+    grid-column: auto / span 6;
+    grid-row: auto / span 6;
+    background: #A9A19E;
+}
+.Cont5 h1 {
+    position: relative;
+    left: 60px;
+    color: white;
+    font-size: 45px;
+    max-width: 300px;
+    margin: 120px 220px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.Cont5 > button {
+    position: relative;
+    background: white;
+    border-radius: 100px;
+    padding: 15px 35px;
+    position: relative;
+    left: 270px;
+    bottom: 250px;
+    display: inline-block;
+    font-weight: bold;
+}
+.Cont5 > p {
+    display: inline-block;
+    font-size: 1.1rem;
+    max-width: 300px;
+    position: relative;
+    margin-left: 900px;
+    bottom: 300px;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+.Cont6 {
+    grid-column: auto / span 6;
+    grid-row: auto / span 7;
+    background: #FAB131;
+}
+.bigdiv {
+    display: flex;
+    position: relative;
+    bottom: 140px;
+    height: 440px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.Child {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: -50px;
+}
+.Cpic > img {
+    display: flex;
+    height: 175px;
+    display: flex;
+    position: relative;
+    left: 38%;
+    top: 25%;
+}
+.Cpic {
+    top: -20px;
+    position: absolute;
+    height: 200px;
+    width: 90%;
+    background-color: #C7DDEA;
+    overflow: hidden;
+}
+.Child h2 {
+    position: relative;
+    top: 80px;
+    font-size: 2rem;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.Child p {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Fira Sans', sans-serif;
+    max-width: 75%
+}
+.Just {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Jpic > img {
+    display: flex;
+    height: 500px;
+    display: flex;
+    position: relative;
+    left: 30%;
+    top: 20%;
+}
+.Jpic {
+    top: -20px;
+    position: absolute;
+    height: 200px;
+    width: 90%;
+    background-color: #FAB131;
+    overflow: hidden;
+}
+.Just h2 {
+    position: relative;
+    top: 80px;
+    font-size: 2rem;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.Just p {
+        position: relative;
+        top: 40px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'Fira Sans', sans-serif;
+        max-width: 75%
+}
+.Old {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -55px;
+}
+.Old h2 {
+    position: relative;
+    top: 80px;
+    font-size: 2rem;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.Old p {
+        position: relative;
+        top: 40px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: 'Fira Sans', sans-serif;
+        max-width: 75%
+}
+.Opic > img {
+    display: flex;
+    height: 500px;
+    display: flex;
+    position: relative;
+    left: 17%;
+    top: 20%;
+}
+.Opic {
+    top: -20px;
+    position: absolute;
+    height: 200px;
+    width: 90%;
+    background-color: #F17949;
+    overflow: hidden;
+}
+.AU {
+    position: absolute;
+    left: 350px;
+    height: 500px;
+    width: 900px;
+    top: 1850px;
+}
+.AU h1 {
+    color: white;
+    left: 9%;
+    top: -15%;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 4rem;
+}
+.AU p {
+   position: relative;
+   max-width: 500px;
+   letter-spacing: 2px; 
+   color: rgba(0, 0, 0, 0.6);
+   text-align: center;
+   left: 200px;
+   top: -120px;
+   font-family: 'Fira Sans', sans-serif;
+}
+.Cont7 {
+    background: #C7DDEA;
+    grid-column: auto / span 2;
+    grid-row: auto / span 4;
+}
+.Cont7 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgba(0, 0, 0, 0.8)
+}
+.Cont8 {
+    background: white;
+    grid-column: auto / span 2;
+    grid-row: auto / span 4;
+}
+.Headline h1 {
+    margin: 30px;
+    font-size: 4rem;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+}
+.Desc2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+
+}
+.Desc2 h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+}
+.Cont9 {
+    background: #EBEBEB;
+    grid-column: auto / span 2;
+    grid-row: auto / span 4;
+}
+.HL2 h1 {
+    margin: 30px;
+    font-size: 4rem;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+}
+.Desc3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+.Desc3 h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+}
+.Cont10 {
+    background: white;
+    grid-column: auto / span 2;
+    grid-row: auto / span 4;
+}
+.HL3 h1 {
+    margin: 30px;
+    font-size: 4rem;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+}
+.Desc4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+.Desc4 h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+}
+.Cont11 {
+    background: #F17949;
+    grid-column: auto / span 2;
+    grid-row: auto / span 4;
+}
+.HL4 h1 {
+    margin: 30px;
+    font-size: 4rem;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+}
+.Desc5 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+.Desc5 h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+}
+.Cont12 {
+    background: white;
+    grid-column: auto / span 2;
+    grid-row: auto / span 4;
+}
+.HL5 h1 {
+    margin: 30px;
+    font-size: 4rem;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+}
+.Desc6 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+.Desc6 h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+}
+.Cont13 {
+    background: #A9A19E;
+    grid-column: auto / span 6;
+    grid-row: auto / span 1;
+}
+.FA {
+    position: absolute;
+    left: 50%;
+    top: 3380px;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid #222;
+    border-right: 5px solid #222;
+    transform: rotate(-45deg);
+}
+.Arrow a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.5rem;
+}
+.Cont14 {
+    background: #777574;
+    grid-column: auto / span 6;
+    grid-row: auto / span 3;
+}

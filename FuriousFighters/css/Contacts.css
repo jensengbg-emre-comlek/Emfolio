@@ -1,0 +1,164 @@
+.grid-cont {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(23, 120px);
+    background: rgba(0, 0, 0, 0.3);
+}
+* {
+    margin: 0px;
+
+}
+.Contain1 {
+    background: #C7DDEA;
+    grid-column: auto / span 6;
+    grid-row: auto / span 4;
+}
+.Head {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.Head h1 {
+    font-size: 6rem;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.Contain1 img {
+    position: relative;
+    float:right;
+    margin-top: -432px;
+    height: 90%;
+    margin-right: 290px;
+}
+.Contain2 {
+    background: white;
+    grid-column: auto / span 6;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30%;
+    line-height: 100%;
+}
+nav a {
+    text-decoration: none;
+    font-family:'Fira Sans', sans-serif;
+    color: #555;
+    
+}
+.kfofk a {
+    color: black;
+    font-weight: bold;
+}
+.Contain3 {
+    background: #A9A19E;
+    grid-column: auto / span 3;
+    grid-row: auto / span 8;
+}
+.Contain3 h1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    margin-top: 250px;
+    color: white;
+}
+.Contain4 {
+    background: #A9A19E;
+    grid-column: auto / span 3;
+    grid-row: auto / span 8;
+}
+.Contain4 .Emrec {
+    position: relative;
+    top: 300px;
+    background: white;
+    height: 50px;
+    width: 500px;
+    border-radius: 3px;
+}
+.Contain4 .h1 {
+    position: relative;
+    font-family:'Fira Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    top: 295px;
+    
+}
+.Contain4 .h2 {
+    position: relative;
+    font-family:'Fira Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    top: 400px;
+}
+.Contain4 .Yourec {
+    position: relative;
+    top: 410px;
+    background: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 3px;
+}
+.Yourec h3 {
+    padding: 25px;
+    font-family:'Fira Sans', sans-serif;
+}
+.Contain4 button {
+    position: relative;
+    top: 450px; 
+    float: right;
+    right: 450px;
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+.Contain5 {
+    background: red;
+    grid-column: auto / span 6;
+    grid-row: auto / span 6;
+}
+.Contain5 img {
+    height: 100%;
+    width: 100%;
+}
+.CV {
+    position: absolute;
+    bottom: -1400px;
+    left: 170px;
+    background: #FAB131;
+    height: 400px;
+    width: 500px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+.CV h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.CV p {
+    color: white;
+    font-size: 2rem;
+    margin-left: 60px;
+    line-height: 50px;
+    font-family:'Fira Sans', sans-serif;
+}
+.CV img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 900px;
+}
+.Contain6 {
+    background: red;
+    grid-column: auto / span 6;
+    grid-row: auto / span 6;
+    background: #777574;
+}
