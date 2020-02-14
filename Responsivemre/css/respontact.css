@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik|Titillium+Web&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.Grid-template {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(65, 30px);
+    background: rgb(236, 236, 236);
+} 
+
+/* Navbar */
+.navbar {
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+    background: rgba(105, 105, 105, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.navbar img {
+    height: 6vh;
+    width: 6vh;
+    padding-top: .5vh;
+}
+.navcontent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.navbar a {
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    padding: 2vh;
+    font-weight: bold;
+}
+.navbar a:link {
+    color: black;
+}
+.navbar a:visited {
+    color: black;
+}
+/* Navbar */
+
+/* Main Content / Landing page picture*/
+.body-intro {
+    background: red;
+    color: white;
+    grid-column: auto / span 1;
+    grid-row: auto / span 23;
+    background-image: url(/Emfolio/Responsivemre/img/womanmusic.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: italic;
+    font-size: 4vh;
+}
+/* Main Content / Landing page picture*/
+
+/* Content / Description for products */
+.intro-caption {
+    background: white;
+    grid-column: auto / span 1;
+    grid-row: auto / span 63;
+    display: flex;
+    align-items: center;
+    padding-top: 2vh;
+    flex-direction: column;
+}
+.intro-caption h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4vh;
+    display: flex;
+    text-align: center;
+}
+.intro-caption h3 {
+    padding-top: 1vh;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3vh;
+    color: #333;
+}
+.intro-caption p {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+.subcontent img {
+    padding-top: 3vh;
+    height: 45vh;
+    width: 100%;
+}
+.subcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subcontent h2 {
+    display: flex;
+    padding: 2.5vh;
+    padding-top: 5vh;
+    align-self: center;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.subcontent p {
+    padding-top: 5vh;
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    padding: 2.5vh;
+    text-align: center;
+    align-self: center;
+}
+    /* Page 2 */
+
+.body2-intro {
+    background: red;
+    color: white;
+    grid-column: auto / span 1;
+    grid-row: auto / span 23;
+    background-image: url(/Emfolio/Responsivemre/img/landingphone2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: italic;
+    font-size: 4vh;
+}
+.intro-caption2 {
+    background: #222;
+    grid-column: auto / span 1;
+    grid-row: auto / span 63;
+    display: flex;
+    align-items: center;
+    padding-top: 2vh;
+    flex-direction: column;
+}
+.intro-caption2 h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4vh;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.intro-caption2 h3 {
+    padding-top: 1vh;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3vh;
+    color: #999;
+}
+.intro-caption2 p {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+}
+.subcontent2 img {
+    padding-top: 3vh;
+    height: 45vh;
+    width: 100%;
+}
+.subcontent2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subcontent2 h2 {
+        display: flex;
+    padding: 2.5vh;
+    padding-top: 5vh;
+    align-self: center;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.subcontent2 p {
+    padding-top: 5vh;
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    padding: 2.5vh;
+    text-align: center;
+    align-self: center;
+    color: #888;
+}
+    /* Page 2 */
+
+/* Content / Description for products */
+footer {
+    background: rgb(211, 211, 211);
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img {
+    height: 6vh;
+    width: 6vh;
+    padding-top: .5vh;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+footer a {
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    padding: 2vh;
+    display: inline-block
+}
+footer a:link {
+    color: black;
+}
+footer a:visited {
+    color: black;
+}
+footer a:hover {
+    color: gray;
+    transition: all .2s ease-in-out;
+}
+@media only screen and (min-width: 768px) {
+    .Grid-template {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(50, 40px);
+        background: rgb(236, 236, 236);
+    } 
+    .navbar {
+        grid-column: auto / span 6;
+        grid-row: auto / span 2;
+        background: rgba(105, 105, 105, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        position: sticky;
+        top: 0px;
+        font-weight: bold;
+        font-size: 2vh;
+    }
+    .navcontent {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar a:hover {
+        color: white;
+        transition: all .2s ease-in-out;
+    }
+    .body-intro {
+        background: red;
+        color: white;
+        grid-column: auto / span 6;
+        grid-row: auto / span 23;
+        background-image: url(/Emfolio/Responsivemre/img/womanmusic-fullpage.webp);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+        flex-direction: column;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: italic;
+        font-size: 4vh;
+        color: black;
+    }
+    .body2-intro {
+        background: red;
+        color: white;
+        grid-column: auto / span 6;
+        grid-row: auto / span 23;
+        background-image: url(/Emfolio/Responsivemre/img/page2fullsize.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+        flex-direction: column;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: italic;
+        font-size: 4vh;
+        color: white;
+    }
+    .intro-caption2 {
+        background: #222;
+        grid-column: auto / span 6;
+        grid-row: auto / span 48;
+        display: flex;
+        align-items: center;
+        padding-top: 2vh;
+        flex-direction: column;
+    }
+    .intro-caption {
+        background: white;
+        grid-column: auto / span 6;
+        grid-row: auto / span 48;
+        display: flex;
+        align-items: center;
+        padding-top: 2vh;
+        flex-direction: column;
+    }
+    .subcontent2 img {
+        padding-top: 3vh;
+        margin: 2vh;
+        height: 50vh;
+        width: 50vh;
+        display: flex;
+        align-self: center;
+    }
+    .subcontent img {
+        padding-top: 3vh;
+        margin: 2vh;
+        height: 50vh;
+        width: 50vh;
+        display: flex;
+        align-self: center;
+    }
+    footer {
+        background: rgb(211, 211, 211);
+        grid-column: auto / span 6;
+        grid-row: auto / span 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
