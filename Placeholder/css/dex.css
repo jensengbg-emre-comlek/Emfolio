@@ -1,0 +1,560 @@
+/*Import in CSS because it gives red error in html validator */
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Pacifico|Roboto&display=swap');
+/*Import in CSS because it gives red error in html validator */
+/* Nullify all auto-margin and padding etc */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Nullify all auto-margin and padding etc */
+/* Nav-bar & Landing Site */
+.grid-cont {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(57, 60px);
+    background: gray;
+}
+  
+.navbar {
+    background: black;
+    grid-column: auto / span 8;
+    grid-row: auto / span 2;
+    display: flex;
+    align-items: center;
+}
+  
+.navbar a {
+    margin-left: 5vh;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 4vh;
+}
+  
+.navbar a:link {
+    color: white;
+}
+  
+.navbar a:visited {
+    color: white;
+}
+  
+.navbar a:hover {
+    color: #af9c8a;
+    transition: all .2s ease-in-out;
+}
+
+.undernav {
+    background: #111;
+    grid-column: auto / span 8;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.undernav em a {
+    font-size: 6vh;
+    display: flex;
+    align-self: flex-end;
+}
+.undernav a {
+    margin-left: 5vh;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 2vh;
+}
+  
+.undernav a:link {
+    color: white;
+}
+  
+.undernav a:visited {
+    color: white;
+}
+  
+.undernav a:hover {
+    color: #af9c8a;
+    transition: all .2s ease-in-out;
+}
+
+.leftbod {
+    background: white;
+    grid-column: auto / span 4;
+    grid-row: auto / span 16;
+    height: 100%;
+    width: 100%;
+    background-image: url(/Emfolio/Placeholder/img/bley.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+.leftbod h1 {
+    font-size: 6vh;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px;
+    font-weight: bold;
+}
+h1 > em {
+    color: #af9c8a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.rightbod {
+    display: flex;
+    background: #111;
+    grid-column: auto / span 4;
+    grid-row: auto / span 16;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+  
+.rightbod h1 {
+    margin: 5vh;
+    color: #af9c8a;
+    font-size: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+  
+.rightbod h3 {
+    margin: 1vh;
+    color: #af9c8a;
+    font-weight: lighter;
+    font-size: 2vh;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.rightbod p {
+    color: #af9c8a;
+    font-size: 2vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* Nav-bar & Landing Site */
+/* Gallery Pictures Laptop & Phones */
+.gallerypics1 {
+    background: #222;
+    grid-column: auto / span 8;
+    grid-row: auto / span 8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pic1 {
+    height: 90%;
+    width: 23%;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+}
+.pic1 img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.pic1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    margin-top: -30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.pic1 h1 {
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.pic2 {
+    height: 90%;
+    width: 23%;
+    transition: all .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    background: white;
+}
+.pic2 img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.pic2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    margin-top: -30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.pic2 h1 {
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.pic3 {
+    height: 90%;
+    width: 23%;
+    transition: all .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    background: white;
+}
+
+.pic3 img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.pic3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    margin-top: -30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.pic3 h1 {
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.pic4 {
+    height: 90%;
+    width: 23%;
+    transition: all .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    background: white;
+}
+
+.pic4 img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.pic4 a {
+    margin-top: -30px;
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.pic4 h1 {
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    align-self: flex-start;
+}
+.pic4 h1:hover {
+    flex-direction: row;
+    display: flex;
+    color: white;
+    font-size: 2vh;
+    cursor: pointer;
+    display: flex;
+    transition: all .2s ease-in-out;
+    justify-content: space-evenly;
+}
+.gallerypics2 {
+    background: #222;
+    grid-column: auto / span 8;
+    grid-row: auto / span 8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.phonepic1 {
+    height: 90%;
+    width: 23%;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+}
+.phonepic1 img {
+    margin-top: 10%;
+    height: 75%;
+    width: 75%;
+    cursor: pointer;
+}
+.phonepic1:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.phonepic1 a {
+    margin-top: 2%;
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.phonepic1 h1 {
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.phonepic1 h1:hover {
+    display: flex;
+    color: white;
+    font-size: 2vh;
+    cursor: pointer;
+    display: flex;
+    transition: all .2s ease-in-out;
+    justify-content: center;
+    align-items: flex-start;
+}
+.phonepic2 {
+    height: 90%;
+    width: 23%;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+}
+.phonepic2 img {
+    margin-top: 10%;
+    height: 75%;
+    width: 75%;
+    cursor: pointer;
+}
+.phonepic2:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.phonepic2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.phonepic2 h1 {
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.phonepic2 h1:hover {
+    display: flex;
+    color: white;
+    font-size: 2vh;
+    cursor: pointer;
+    display: flex;
+    transition: all .2s ease-in-out;
+    justify-content: center;
+    align-items: flex-start;
+}
+.phonepic3 {
+    height: 90%;
+    width: 23%;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+}
+.phonepic3 img {
+    margin-top: 10%;
+    height: 75%;
+    width: 75%;
+    cursor: pointer;
+}
+.phonepic3:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.phonepic3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.phonepic3 h1 {
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.phonepic3 h1:hover {
+    display: flex;
+    color: white;
+    font-size: 2vh;
+    cursor: pointer;
+    display: flex;
+    transition: all .2s ease-in-out;
+    justify-content: center;
+    align-items: flex-start;
+}
+.phonepic4 {
+    height: 90%;
+    width: 23%;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+}
+.phonepic4 img {
+    margin-top: 10%;
+    height: 75%;
+    width: 75%;
+    cursor: pointer;
+}
+.phonepic4:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.phonepic4 a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.phonepic4 h1 {
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.phonepic4 h1:hover {
+    display: flex;
+    color: white;
+    font-size: 2vh;
+    cursor: pointer;
+    display: flex;
+    transition: all .2s ease-in-out;
+    justify-content: center;
+    align-items: flex-start;
+}
+/* Gallery Pictures Laptop & Phones */
+/* Sub-Information Pre-Footer */
+.lowbod-intro {
+    background: #111;
+    grid-column: auto / span 8;
+    grid-row: auto / span 10;
+    height: 100%;
+    width: 100%;
+    background-image: url(/Emfolio/Placeholder/img/fixxx.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lowbod-intro h1 {
+    font-size: 6vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+.lowbod-intro h3 {
+    font-size: 3vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10vh;
+
+}
+.button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #e7e7e7;
+    color: rgba(0, 0, 0, 1);
+}
+/* Sub-Information Pre-Footer */
+.footer-r {
+    background: black;
+    grid-column: auto / span 8;
+    grid-row: auto / span 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-r h1 {
+    color: #af9c8a;
+    font-size: 6vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.footer-r h2 {
+    margin: 9vh;
+    color: #af9c8a;
+    font-size: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.footer-r h3 {
+    color: #af9c8a;
+    font-size: 2.6vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+/* Pre Footer */
+@media only screen and (max-width: 700px ) {
+    .grid-cont {
+        grid-template-columns: 100%;
+    }
+    .gallerypics1 {
+        flex-direction: column; 
+
+    }
+    .pic1 {
+        width: 100%;
+        height: 30000px;
+    }
+    .pic2 {
+        margin: 2vh;
+        width: 100%;
+        height: 30000px;
+    }
+    .pic3 {
+        width: 100%;
+        height: 30000px;
+    }
+    .pic4 {
+        margin: 2vh;
+        width: 100%;
+        height: 30000px;
+    }
+}

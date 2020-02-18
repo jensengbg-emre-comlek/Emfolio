@@ -249,10 +249,20 @@ footer a:hover {
     .navbar {
         grid-column: auto / span 6;
         grid-row: auto / span 2;
+        background: rgba(105, 105, 105, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        position: sticky;
+        top: 0px;
         font-weight: bold;
         font-size: 2vh;
     }
     .navcontent {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
         justify-content: space-around;
     }
     .navbar a:hover {
@@ -263,25 +273,58 @@ footer a:hover {
         background: red;
         color: white;
         grid-column: auto / span 6;
+        grid-row: auto / span 23;
         background-image: url(/Emfolio/Responsivemre/img/womanmusic-fullpage.webp);
-        color: black;
-        background-attachment: fixed;
+        background-size: cover;
         background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+        flex-direction: column;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: italic;
+        font-size: 4vh;
+        color: black;
     }
     .body2-intro {
+        background: red;
+        color: white;
         grid-column: auto / span 6;
+        grid-row: auto / span 23;
         background-image: url(/Emfolio/Responsivemre/img/page2fullsize.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+        flex-direction: column;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: italic;
+        font-size: 4vh;
         color: white;
     }
     .intro-caption2 {
+        background: #222;
         grid-column: auto / span 6;
         grid-row: auto / span 48;
+        display: flex;
+        align-items: center;
+        padding-top: 2vh;
+        flex-direction: column;
     }
     .intro-caption {
+        background: white;
         grid-column: auto / span 6;
         grid-row: auto / span 48;
+        display: flex;
+        align-items: center;
+        padding-top: 2vh;
+        flex-direction: column;
     }
     .subcontent2 img {
+        padding-top: 3vh;
         margin: 2vh;
         height: 50vh;
         width: 50vh;
@@ -289,6 +332,7 @@ footer a:hover {
         align-self: center;
     }
     .subcontent img {
+        padding-top: 3vh;
         margin: 2vh;
         height: 50vh;
         width: 50vh;
@@ -296,6 +340,11 @@ footer a:hover {
         align-self: center;
     }
     footer {
+        background: rgb(211, 211, 211);
         grid-column: auto / span 6;
+        grid-row: auto / span 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

@@ -1,0 +1,57 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 160px);
+    grid-template-rows: repeat(4, 160px);
+    max-width: 1000px;
+    grid-gap: 8px;
+    border: 1px solid #222;
+    padding: 5px;  
+    background: #111;
+}
+.Box1 {
+    background: #222;
+    border: 3px solid rgb(0, 204, 255);
+    grid-column: auto / span 4;
+    grid-row: auto / span 2;
+}
+.Box2 {
+    background: #222;
+    border: 3px solid rgb(0, 204, 255);
+    grid-column: auto / span 2;
+    grid-row: auto / span 4;
+}
+.Box3 {
+    background: #222;
+    border: 3px solid rgb(0,204,255);
+    grid-column: auto;
+    grid-row: auto;
+}
+.Box4 {
+    background: #222;
+    border: 3px solid rgb(0,204,255);
+    grid-column: auto;
+    grid-row: auto;
+}
+.Box5 {
+    background: #222;
+    border: 3px solid rgb(0,204,255);
+    grid-column: auto / span 2;
+    grid-row: auto;
+}
+.Box6 {
+    background: #222;
+    border: 3px solid rgb(0,204,255);
+    grid-column: auto;
+    grid-row: auto;
+}
+.Box7 {
+    background: #222;
+    border: 3px solid rgb(0,204,255);
+    grid-column: auto;
+    grid-row: auto;
+}
+.Box8 {
+    background: #222;
+    border: 3px solid rgb(0,204,255);
+    grid-column: auto / span 2;
+}

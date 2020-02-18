@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 120px);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    border: 1px solid #222;;
+    justify-items: stretch;
+    background: orange;
+}
+.One {
+    border: 5px solid white;
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+    background: red;
+}
+.Two {
+    border: 5px solid white;
+    grid-column: 5 / 6;
+    grid-row: 1 / 6;
+    background: red;
+}
